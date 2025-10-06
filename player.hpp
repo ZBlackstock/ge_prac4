@@ -9,5 +9,5 @@ public :
 
 private:
 	static constexpr float _radius = 25.f;
-	static constexpr float _speed = 200.f;
+	static constexpr float _speed = 20.f;
 };

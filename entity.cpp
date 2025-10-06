@@ -9,6 +9,10 @@ void Entity::set_position(const sf::Vector2f& pos) {
 	_shape->setPosition(sf::Vector2f(_position));
 }
 
-void Entity::move(const sf::Vector2f& pos) {_position += pos;}
+void Entity::move(const sf::Vector2f& pos) {
+	_position += pos;
+}
 
-void Entity::update(const float& dt) {}
+void Entity::update(const float& dt) {
+	set_position(_position);
+}

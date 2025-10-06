@@ -6,8 +6,8 @@ struct Parameters {
 public:
 
 
-	static constexpr int game_width = 400;
-	static constexpr int game_height = 300;
+	static constexpr int game_width = 1920;
+	static constexpr int game_height = 1080;
 	static constexpr int sprite_size = 32;
 	static constexpr float time_step = 0.017f;
 };
