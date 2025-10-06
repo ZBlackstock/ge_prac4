@@ -16,6 +16,6 @@ set(SFML_INCS "lib/SFML/include")
 link_directories("${CMAKE_BINARY_DIR}/lib/SFML/lib")
 
 #### Practical 4 ####
-add_executable(tile_engine main.cpp)
+add_executable(tile_engine main.cpp "game_system.cpp" "entity.cpp" "player.cpp")
 target_include_directories(tile_engine PRIVATE ${SFML_INCS})
 target_link_libraries(tile_engine sfml-graphics)
